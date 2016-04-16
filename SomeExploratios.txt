@@ -1,0 +1,9 @@
+1.A gradle project with groupid and artifact id (Identifier with artifact id accross maven repositories) has been created
+Some Exploretions  *
+ after project opens on idea, the default src/main/java project structure was not available,
+ actully apply java plugin is in place, and projcet structure should have been create accordingly
+ ,and I tried to apply war plugin, it created src/main/webapp and that was not what I am looking for
+ So I decided to re create the project,there was checkbox at the configuration level saying create empty directories...
+ I checked that and structure was in place
+ .
+ 
