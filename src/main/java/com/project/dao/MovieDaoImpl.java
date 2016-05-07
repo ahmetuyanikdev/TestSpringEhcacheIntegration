@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 public class MovieDaoImpl implements MovieDao {
 
     @Override
+    @Cacheable(value="movieFindCache", key="#name")
     public Movie findByDirector(String name) {
         slowQuery(2000);
         System.out.println("findByDirector is running......");
